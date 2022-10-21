@@ -14,13 +14,16 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-20">
-        Hi, I am Shivam Sharma, a Full Stack Web developer focused on crafting great web experiences. Designing and Coding have been my passion since the days I started working with computers but I found myself into web development since 2021. I enjoy creating beautifully designed, intuitive and functional websites.
+        Hi, I am Pawan Kumar , a Full Stack Web developer focused on crafting great web experiences. Designing and Coding have been my passion since the days 
+        I started working with computers but I found myself into web development since 2021. I enjoy creating beautifully designed, intuitive and functional websites.
         </p>
 
         <br />
 
         <p className="text-xl">
-        I also love Data Structure and algorthims. I Enjoy Doing this along with building web Application. I am Always energetic and eager to learn new skills, motivated & always coming up with innovative ideas. Feel Free to reach out to me
+        I also love Data Structure and algorthims. 
+        I Enjoy Doing this along with building web Application. 
+        I am Always energetic and eager to learn new skills, motivated & always coming up with innovative ideas. Feel Free to reach out to me
         </p>
       </div>
     </div>

@@ -12,12 +12,12 @@ function App() {
       <NavBar />
       <Home />
       
-       {/* <About /> */}
-      {/* <Portfolio /> */}
-      {/* <Experience /> */}
-      {/* <Contact />  */}
+       <About />
+      <Portfolio />
+      <Experience />
+      <Contact /> 
 
-      {/* <SocialLinks /> */}
+      <SocialLinks />
     </div>
   );
 }
