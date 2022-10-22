@@ -1,10 +1,9 @@
 import React from "react";
-import Mythersa from "../assets/portfolio/kfc.png";
-import bluefly from "../assets/portfolio/bluefly.png";
+import Mythersa from "../assets/portfolio/mytheresa.png";
+import Bewakoof from "../assets/portfolio/Bewakoof.png";
 import firefox from "../assets/portfolio/firefox.png";
-import searchstar from "../assets/portfolio/searchstar.png";
-import foodapp from "../assets/portfolio/foodapp.png";
-import weatherapp from "../assets/portfolio/weatherapp.png";
+import bluefly from "../assets/portfolio/bluefly.png";
+
 
 const Portfolio = () => {
   const portfolios = [
@@ -16,34 +15,23 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      src: bluefly,
+      src: Bewakoof,
       demoLink:"https://peaceful-paprenjak-26fb40.netlify.app/",
       codeLink:"https://github.com/rajpawanku/Unit2ProjectBewakoof",
     },
     {
       id: 3,
       src: firefox,
-      demoLink:"https://capable-gecko-6d7ee1.netlify.app/",
+      demoLink:"#",
       codeLink:"https://github.com/rajpawanku/News-app",
     },
     {
       id: 4,
-      src: searchstar,
-      demoLink:"https://searchstar-movie-app.netlify.app/",
+      src: bluefly,
+      demoLink:"#",
       codeLink:"https://github.com/rajpawanku/OutLook",
     },
-    // {
-    //   id: 5,
-    //   src: foodapp,
-    //   demoLink:"https://golden-horse-68ba4c.netlify.app/",
-    //   codeLink:"https://github.com/optimizershivam/",
-    // },
-    // {
-    //   id: 6,
-    //   src: weatherapp,
-    //   demoLink:"https://sparkling-cajeta-0d857b.netlify.app/",
-    //   codeLink:"https://github.com/optimizershivam/",
-    // },
+   
   ];
 
   return (
@@ -59,7 +47,7 @@ const Portfolio = () => {
           <p className="py-6">Check out some of my work right here</p>
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-8 px-12 sm:px-0">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
           {portfolios.map(({ id, src,codeLink,demoLink }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
