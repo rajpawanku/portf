@@ -5,6 +5,7 @@ import Home from "./components/Home";
 import NavBar from "./components/NavBar";
 import Portfolio from "./components/Portfolio";
 import SocialLinks from "./components/SocialLinks";
+import { Stack } from "./components/Stacks";
 
 function App() {
   return (
@@ -14,8 +15,10 @@ function App() {
       
        <About />
       <Portfolio />
+      <Stack />
       <Experience />
-      <Contact /> 
+      <Contact />   
+
 
       <SocialLinks />
     </div>
