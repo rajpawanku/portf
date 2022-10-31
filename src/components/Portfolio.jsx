@@ -1,8 +1,8 @@
 import React from "react";
 import Mythersa from "../assets/portfolio/mytheresa.png";
 import Bewakoof from "../assets/portfolio/Bewakoof.png";
-import firefox from "../assets/portfolio/firefox.png";
-import bluefly from "../assets/portfolio/bluefly.png";
+import News from "../assets/portfolio/News.png";
+import OutLook from "../assets/portfolio/OutLook.png";
 
 
 const Portfolio = () => {
@@ -21,14 +21,14 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      src: firefox,
-      demoLink:"#",
+      src: News,
+      demoLink:"https://splendorous-puppy-e94afa.netlify.app",
       codeLink:"https://github.com/rajpawanku/News-app",
     },
     {
       id: 4,
-      src: bluefly,
-      demoLink:"#",
+      src: OutLook,
+      demoLink:"https://moonlit-sable-152afd.netlify.app",
       codeLink:"https://github.com/rajpawanku/OutLook",
     },
    
