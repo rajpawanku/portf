@@ -21,16 +21,17 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      src: News,
-      demoLink:"https://splendorous-puppy-e94afa.netlify.app",
-      codeLink:"https://github.com/rajpawanku/News-app",
-    },
-    {
-      id: 4,
       src: OutLook,
       demoLink:"https://moonlit-sable-152afd.netlify.app",
       codeLink:"https://github.com/rajpawanku/OutLook",
     },
+    {
+      id: 4,
+      src: News,
+      demoLink:"https://splendorous-puppy-e94afa.netlify.app",
+      codeLink:"https://github.com/rajpawanku/News-app",
+    },
+    
    
   ];
 
