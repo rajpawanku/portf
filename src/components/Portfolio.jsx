@@ -1,38 +1,35 @@
 import React from "react";
 import Mythersa from "../assets/portfolio/mytheresa.png";
 import Bewakoof from "../assets/portfolio/Bewakoof.png";
-import News from "../assets/portfolio/News.png";
 import OutLook from "../assets/portfolio/OutLook.png";
-
+import KindMeal from "../assets/portfolio/KindMeal.png"
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
+      src: KindMeal,
+      demoLink:"https://blessed-toes-567-ten.vercel.app",
+      codeLink:"https://github.com/priyankadora20/blessed-toes-567",
+    },
+    {
+      id: 2,
       src: Mythersa,
       demoLink:"https://marvelous-torrone-9bbbc5.netlify.app/index.html",
       codeLink:"https://github.com/rajpawanku/Mytheresa",
     },
     {
-      id: 2,
+      id: 3,
       src: Bewakoof,
       demoLink:"https://peaceful-paprenjak-26fb40.netlify.app/",
       codeLink:"https://github.com/rajpawanku/Unit2ProjectBewakoof",
     },
     {
-      id: 3,
+      id: 4,
       src: OutLook,
       demoLink:"https://moonlit-sable-152afd.netlify.app",
       codeLink:"https://github.com/rajpawanku/OutLook",
     },
-    {
-      id: 4,
-      src: News,
-      demoLink:"https://splendorous-puppy-e94afa.netlify.app",
-      codeLink:"https://github.com/rajpawanku/News-app",
-    },
-    
-   
   ];
 
   return (
