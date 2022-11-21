@@ -4,7 +4,8 @@ import Contact from "./components/Contact";
 import Experience from "./components/Experience";
 import Home from "./components/Home";
 import NavBar from "./components/NavBar";
-import Portfolio from "./components/Portfolio";
+import Project from "./components/Project";
+
 import SocialLinks from "./components/SocialLinks";
 import {Stack} from "./components/Stack";
 
@@ -14,15 +15,12 @@ function App() {
     <div >
       <NavBar />
       <Home />
-      
-       <About />
-      <Portfolio />
+      <About />
+      <Project />
       <Calender />
       <Stack />
       <Experience />
       <Contact />   
-
-
       <SocialLinks />
     </div>
   );
