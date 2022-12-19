@@ -19,12 +19,14 @@ const Home = () => {
             <a href="https://drive.google.com/file/d/1DRf0GnZJqaJNzyJnBATBSv5rfoxb7o8o/view?usp=sharing"
               smooth
               duration={500}
+              target={"_blank"}
               className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"
               >
               Resume
               <span className="group-hover:rotate-90 duration-300">
             </span>
               </a>
+             
           </div>
         </div>
        <div className='hidden lg:flex absolute right-[90px]' >
