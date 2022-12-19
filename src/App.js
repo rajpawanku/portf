@@ -13,7 +13,7 @@ import {Stack} from "./components/Stack";
 function App() {
   return (
     <div >
-      <NavBar style={{zIndex:"2"}} />
+      <NavBar  />
       <Home />
       <About />
       <Project />
@@ -21,7 +21,6 @@ function App() {
       <Stack />
       <Experience />
       <Contact />   
-      <SocialLinks />
     </div>
   );
 }
