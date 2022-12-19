@@ -1,8 +1,7 @@
 import React from "react";
 import PawanImage from "../assets/PawanImage.png";
-
-import { MdOutlineKeyboardArrowRight } from "react-icons/md";
-import { Link } from "react-scroll";
+//  import { MdOutlineKeyboardArrowRight } from "react-icons/md";
+// import { Link } from "react-scroll";
 
 const Home = () => {
   return (
@@ -18,21 +17,20 @@ const Home = () => {
           <p className="text-gray-500 py-4 max-w-md">
             A full-stack web-developer with a specialization in MERN stack.
              I love to work on web application using technologies like
-            React, Redux, Javascript, Tailwind, Bootstrap, Material UI, Html, CSS, Node JS and Mongodb.
+            React, Redux, Javascript,Bootstrap, Material UI, Html, CSS, Node JS and Mongodb.
           </p>
 
           <div>
-            <Link
-              to="project"
+            <a href="https://drive.google.com/file/d/1DRf0GnZJqaJNzyJnBATBSv5rfoxb7o8o/view?usp=sharing"
               smooth
               duration={500}
               className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"
-            >
-              Project
+              >
+              Resume
               <span className="group-hover:rotate-90 duration-300">
-                <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
+                {/* <MdOutlineKeyboardArrowRight size={25} className="ml-1" /> */}
               </span>
-            </Link>
+              </a>
           </div>
         </div>
 

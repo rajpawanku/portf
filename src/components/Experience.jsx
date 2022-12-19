@@ -1,92 +1,71 @@
 import React from "react";
+import html from "../assets/html.png"
+import css from "../assets/css.png"
 import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
-import github from "../assets/github.png";
-import tailwind from "../assets/tailwind.png";
 import redux from "../assets/redux.png"
-import mongodb from "../assets/mongodb.png"
+import typescript from "../assets/typescript.png"
 import express from "../assets/express.png"
 import node from "../assets/node.png"
+import mongodb from "../assets/mongodb.png"
+import github from "../assets/github.png";
 
 const Experience = () => {
-  const techs = [
-   
-    {
-      id: 3,
-      src: javascript,
-      title: "JavaScript",
-      style: "shadow-yellow-500",
-    },
-    {
-      id: 4,
-      src: reactImage,
-      title: "React",
-      style: "shadow-blue-600",
-    },
-    {
-      id: 5,
-      src: tailwind,
-      title: "Tailwind",
-      style: "shadow-sky-400",
-    },
-    {
-      id: 6,
-      src: redux,
-      title: "Redux",
-      style: "shadow-purple-600",
-      
-    },
-    {
-      id: 8,
-      src: github,
-      title: "GitHub",
-      style: "shadow-gray-400",
-    },
-    {
-      id: 9,
-      src: mongodb,
-      title: "Mongodb",
-      style: "shadow-green-400",
-    },
-    {
-      id: 10,
-      src: express,
-      title: "Express JS",
-      style: "shadow-white",
-    },
-    {
-      id: 12,
-      src: node,
-      title: "Node JS",
-      style: "shadow-green-400",
-    },
-  ];
-  // style: "shadow-white",
+  
   return (
-    <div
-      name="experience"
-      className="bg-gradient-to-b from-gray-800 to-black w-full h-screen "
-    >
-      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
+    <div name='skills' className='bg-[#0a192f] text-gray-300 w-full h-screen '>
+    <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div>
-          <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
-            Experience
-          </p>
-          <p className="py-6">These are the technologies I've worked with</p>
+            <p className='text-4xl font-bold border-b-4 border-pink-800 inline'>Skills</p>
+            <p className='py-4'>These are the technologies I've worked with</p>
         </div>
-
-        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
-          {techs.map(({ id, src, title, style }) => (
-            <div
-              key={id}
-              className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
-            >
-              <img src={src} alt="" className="w-20 mx-auto" />
-              <p className="mt-4">{title}</p>
+        <div className='w-full grid grid-cols-3 sm:grid-cols-4 gap-4 text-center py-8'>
+            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                <img className='w-20 mx-auto' src={html} alt="HTML icon" />
+                <p className='my-4'>HTML</p>
             </div>
-          ))}
+            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                <img className='w-20 mx-auto' src={css} alt="HTML icon" />
+                <p className='my-4'>CSS</p>
+            </div>
+            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                <img className='w-20 mx-auto' src={javascript} alt="HTML icon" />
+                <p className='my-4'>JAVASCRIPT</p>
+            </div>
+            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                <img className='w-20 mx-auto' src={reactImage} alt="HTML icon" />
+                <p className='my-4'>REACT</p>
+            </div>
+            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                <img className='w-20 mx-auto' src={redux} alt="HTML icon" />
+                <p className='my-4'>GITHUB</p>
+            </div>
+            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                <img className='w-20 mx-auto' src={typescript} alt="HTML icon" />
+                <p className='my-4'>NODE</p>
+            </div>
+            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                <img className='w-20 mx-auto' src={node} alt="HTML icon" />
+                <p className='my-4'>MONGO</p>
+            </div>
+            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 '>
+                <img className='w-20 mx-auto' src={mongodb} alt="HTML icon" />
+                <p className='my-4'>TYPESCRIPT</p>
+            </div>
+            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 '>
+                <img className='w-20 mx-auto' src={express} alt="HTML icon" />
+                <p className='my-4'>REDUX</p>
+            </div>
+            {/* <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 '>
+                <img className='w-20 mx-auto' src={BOOT} alt="HTML icon" />
+                <p className='my-4'>BOOTSTRAP</p>
+            </div> */}
+            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 '>
+                <img className='w-20 mx-auto' src={github} alt="EXPRESS icon" />
+                <p className='my-4'>EXPRESS</p>
+            </div>
         </div>
-      </div>
+    </div>
     </div>
   );
 };
