@@ -25,44 +25,40 @@ const Experience = () => {
                 <p className='my-4'>HTML</p>
             </div>
             <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                <img className='w-20 mx-auto' src={css} alt="HTML icon" />
+                <img className='w-20 mx-auto' src={css} alt="CSS icon" />
                 <p className='my-4'>CSS</p>
             </div>
             <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                <img className='w-20 mx-auto' src={javascript} alt="HTML icon" />
+                <img className='w-20 mx-auto' src={javascript} alt="JAVASCRIPT icon" />
                 <p className='my-4'>JAVASCRIPT</p>
             </div>
             <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                <img className='w-20 mx-auto' src={reactImage} alt="HTML icon" />
+                <img className='w-20 mx-auto' src={reactImage} alt="REACT icon" />
                 <p className='my-4'>REACT</p>
             </div>
             <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                <img className='w-20 mx-auto' src={redux} alt="HTML icon" />
-                <p className='my-4'>GITHUB</p>
-            </div>
-            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                <img className='w-20 mx-auto' src={typescript} alt="HTML icon" />
-                <p className='my-4'>NODE</p>
-            </div>
-            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                <img className='w-20 mx-auto' src={node} alt="HTML icon" />
-                <p className='my-4'>MONGO</p>
-            </div>
-            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 '>
-                <img className='w-20 mx-auto' src={mongodb} alt="HTML icon" />
-                <p className='my-4'>TYPESCRIPT</p>
-            </div>
-            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 '>
-                <img className='w-20 mx-auto' src={express} alt="HTML icon" />
+                <img className='w-20 mx-auto' src={redux} alt="REDUX icon" />
                 <p className='my-4'>REDUX</p>
             </div>
-            {/* <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 '>
-                <img className='w-20 mx-auto' src={BOOT} alt="HTML icon" />
-                <p className='my-4'>BOOTSTRAP</p>
-            </div> */}
+            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                <img className='w-20 mx-auto' src={typescript} alt="TYPESCRIPT icon" />
+                <p className='my-4'>TYPESCRIPT</p>
+            </div>
+            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                <img className='w-20 mx-auto' src={node} alt="NODE icon" />
+                <p className='my-4'>NODE</p>
+            </div>
             <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 '>
-                <img className='w-20 mx-auto' src={github} alt="EXPRESS icon" />
+                <img className='w-20 mx-auto' src={mongodb} alt="MONGODB icon" />
+                <p className='my-4'>MONGODB</p>
+            </div>
+            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 '>
+                <img className='w-20 mx-auto' src={express} alt="EXPRESS icon" />
                 <p className='my-4'>EXPRESS</p>
+            </div>
+            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 '>
+                <img className='w-20 mx-auto' src={github} alt="GITHUB icon" />
+                <p className='my-4'>GITHUB</p>
             </div>
         </div>
     </div>

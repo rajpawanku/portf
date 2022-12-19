@@ -2,7 +2,7 @@ import GitHubCalendar from "react-github-calendar";
 import ReactTooltip from "react-tooltip";
 const Calender = ()=>{
     return(
-        <div className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white" 
+        <div className="w-full h-screen bg-[#0a192f]  text-white" 
         style={{border:"" , height:"auto"}}
         >
 

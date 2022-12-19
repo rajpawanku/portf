@@ -16,20 +16,20 @@ const NavBar = () => {
     },
     {
       id: 3,
-      link: "project",
-    },
-    {
-      id: 4,
       link: "skills",
     },
     {
-      id: 5,
-      link: "contact",
+      id: 4,
+      link: "project",
+    },
+    {
+      id:5,
+      link:"contact"
     },
   ];
 
   return (
-    <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed">
+    <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-[#0a192f] z-10 fixed">
       <div>
         <h1 className="text-5xl font-signature ml-2">Pawan</h1>
       </div>

@@ -1,7 +1,7 @@
 import React from "react"
 const Stack = () =>{
     return(
-        <div style={{height:"auto"}} className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white">
+        <div style={{height:"auto",marginTop:""}} className="bg-[#0a192f] text-white">
     
       <div style={{border:"", width:"33%",margin:"auto"}}>
      <img src="https://github-readme-streak-stats.herokuapp.com?user=rajpawanku&theme=radical)]
