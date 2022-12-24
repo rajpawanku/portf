@@ -9,7 +9,7 @@ const Project = () => {
     {
       id: 1,
       src: KindMeal,
-      demoLink:"https://blessed-toes-567-ten.vercel.app",
+      demoLink:"https://kindmeal-clone-website.vercel.app",
       codeLink:"https://github.com/priyankadora20/blessed-toes-567",
       about: "KindMeal.my is Malaysia's leading meat-free lifestyle platform , indulging you with delicious discounted vegetarian meals to save animals, health, environment and money.",
       tech:"React | Redux | JavaScript | Html | Css",
