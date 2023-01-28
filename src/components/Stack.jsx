@@ -1,6 +1,7 @@
 import React from "react"
 const Stack = () =>{
     return(
+        
         <div style={{height:"auto",marginTop:""}} className="bg-[#0a192f] text-white">
     
       <div style={{border:"", width:"33%",margin:"auto"}}>

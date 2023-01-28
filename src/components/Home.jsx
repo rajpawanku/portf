@@ -1,5 +1,5 @@
 import React from "react";
-import PawanImage from "../assets/PawanImage.png";
+import PawanImage from "../assets/PawanImage.jpeg";
 
 
 const Home = () => {
@@ -16,7 +16,7 @@ const Home = () => {
         </p>
         <div>
         <div>
-            <a href="https://drive.google.com/file/d/1DRf0GnZJqaJNzyJnBATBSv5rfoxb7o8o/view?usp=sharing"
+            <a href="https://drive.google.com/file/d/1zAN9Ab5Xm3o4EdHA7e-JvHdDHfXLdMSE/view?usp=sharing"
               smooth
               duration={500}
               target={"_blank"}
@@ -30,7 +30,7 @@ const Home = () => {
           </div>
         </div>
        <div className='hidden lg:flex absolute right-[90px]' >
-          <img src={PawanImage} alt="" className="w-[300px] rounded-full" />
+          <img src={PawanImage} alt="" className="w-[385px] rounded-full" />
       </div>
       </div>
     </div>
@@ -40,33 +40,4 @@ const Home = () => {
 export default Home;
         
 
-    //     <div
-    //   name="home"
-    //   className="h-screen w-full bg-[#0a192f]  from-black via-black to-gray-800"
-    // >
-    //   <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
-    //     <div className="flex flex-col justify-center h-full">
-    //       <h2 className="text-4xl sm:text-7xl font-bold text-white">
-    //         I'm a Full Stack Developer
-    //       </h2>
-    //       <p className="text-gray-500 py-4 max-w-md">
-    //         A full-stack web-developer with a specialization in MERN stack.
-    //          I love to work on web application using technologies like
-    //         React, Redux, Javascript,Bootstrap, Material UI, Html, CSS, Node JS and Mongodb.
-    //       </p>
-
-          
-    //     </div>
-
-    //     <div>
-    //       <img
-          
-    //         src={PawanImage}
-    //         alt="my profile"
-
-    //     style={{width:"550px",height:"400px",borderRadius:"300px"}}
-    //         className="rounded-2xl mx-auto w-2/3 md:w-full"
-    //       />
-    //     </div>
-    //   </div>
-    // </div>
+    
