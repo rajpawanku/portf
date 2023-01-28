@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.7514c0bc.css",
-    "main.js": "/static/js/main.bfeb8f2a.js",
+    "main.css": "/static/css/main.4c5f79c5.css",
+    "main.js": "/static/js/main.e43808bc.js",
     "static/media/Bewakoof.png": "/static/media/Bewakoof.2758dcffb548ac28314a.png",
     "static/media/mytheresa.png": "/static/media/mytheresa.072e2d21e944a9449ddb.png",
     "static/media/OutLook.png": "/static/media/OutLook.d08aed26f615eba5180c.png",
     "static/media/KindMeal.png": "/static/media/KindMeal.795db72df8ebae1123fc.png",
-    "static/media/PawanImage.png": "/static/media/PawanImage.c28d2b5b9383f468846b.png",
+    "static/media/PawanImage.jpeg": "/static/media/PawanImage.823b59ce6ad121b3c2cf.jpeg",
     "static/media/react.png": "/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/node.png": "/static/media/node.952a9ea986dcfa5229ad.png",
     "static/media/github.png": "/static/media/github.3b9e32903aa89111875d.png",
@@ -17,11 +17,11 @@
     "static/media/express.png": "/static/media/express.cc6936eff6801f125621.png",
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
-    "main.7514c0bc.css.map": "/static/css/main.7514c0bc.css.map",
-    "main.bfeb8f2a.js.map": "/static/js/main.bfeb8f2a.js.map"
+    "main.4c5f79c5.css.map": "/static/css/main.4c5f79c5.css.map",
+    "main.e43808bc.js.map": "/static/js/main.e43808bc.js.map"
   },
   "entrypoints": [
-    "static/css/main.7514c0bc.css",
-    "static/js/main.bfeb8f2a.js"
+    "static/css/main.4c5f79c5.css",
+    "static/js/main.e43808bc.js"
   ]
 }
