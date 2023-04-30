@@ -15,7 +15,7 @@ const Home = () => {
           interest in building user-centric products.{" "}
         </p>
         <div>
-        <div>
+        <div id="resume-link-1">
             <a href="https://drive.google.com/file/d/1zAN9Ab5Xm3o4EdHA7e-JvHdDHfXLdMSE/view?usp=sharing"
               smooth
               duration={500}

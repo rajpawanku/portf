@@ -45,7 +45,7 @@ const Contact = () => {
               className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
             ></textarea>
 
-            <button className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300">
+            <button id="contact-email" className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300">
               Let's talk
             </button>
           </form>
@@ -53,9 +53,9 @@ const Contact = () => {
         <div style={{display:'flex',border:"",
          width:'20%',marginLeft:"30%",gap:'60px'}} >
 
- <a href="https://www.linkedin.com/in/pawangrk00" target="_blank">
+ <a id="contact-linkedin" href="https://www.linkedin.com/in/pawangrk00" target="_blank">
  <FaLinkedin size={50} /></a>         
-<a href="https://github.com/rajpawanku" target="_blank">
+<a id="contact-github" href="https://github.com/rajpawanku" target="_blank">
 <FaGithub size={50} />
 </a>
 
