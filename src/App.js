@@ -16,14 +16,14 @@ import {Stack} from "./components/Stack";
 function App() {
   return (
     <div >
-      <NavBar  />
-      <Home />
-      <About />
-      <Project />
+      <NavBar  id="nav-menu" />
+      <Home id="home"/>
+      <About  id="about" class="about section" />
+      <Project id="projects"/>
       <Calender />
       <Stack />
-      <Experience />
-      <Contact />   
+      <Experience id="skills" />
+      <Contact id="contact"/>   
     </div>
   );
 }
